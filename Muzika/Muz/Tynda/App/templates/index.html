@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="{% static 'css/music_style.css' %}">
+    </head>
+    <body>
+        <div>
+            <section id ="home">
+                <div class = "block1">
+                    <ul>
+                        <li><a href="#home">Basty Bet</a></li>
+                        <li><a href="#about">Biz turali</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#release">Relizze</a></li>
+                        <li><a href="#contact">Bailanis</a></li>
+                    </ul>
+                    <pre class="text">TYNDA</pre>
+                    <a class="btn" href="#contact"><p class="btext">Jazilu</p></a>
+                </div>
+            </section>
+            <section id="about">
+                <div class="block2">
+                    <img src= "{% static 'img/Group 2.png' %}" class ="aboutIMG">
+                    <div class="text-container">
+                        <div class="text2">BIZ TURALI</div>
+                        <div class="text201">Qaripolla Medeo</div>
+                        <div class="text202">Kazakhstan</div>
+                        <div class="text203">
+                            Raleway - тонкий и элегантный шрифт, который может использоваться как для заголовков, так и для текста, и подходит для многих различных типов веб-сайтов.
+                            <br>Open Sans - чистый и минималистический шрифт, который также хорошо читаем на различных устройствах и может использоваться в разных стилях веб-дизайна.
+                            <br>Roboto - этот шрифт очень похож на Montserrat, и также подходит для шрифтового оформления заголовков и текстов.
+                            <br>Source Sans Pro - простой и читаемый шрифт, который, как и Montserrat, разработан для использования в веб-дизайне.
+                            <br>Важно помнить, что выбор шрифта зависит от темы вашего веб-сайта и вашей целевой аудитории, и вы должны выбирать шрифт, который лучше всего подходит для вашего проекта.
+                        </div>
+                        <div class="text204">Social</div>
+                        <div class="text-container2 socialIMG">
+                            <img src="{% static 'img/logo-facebook 2.png' %}" class="bitSocIMG">
+                            <img src="{% static 'img/logo-instagram 2.png' %}" class="bitSocIMG">
+                            <img src="{% static 'img/mail 2.png' %}" class="bitSocIMG ">
+                            <img src="{% static 'img/logo-whatsapp 2.png' %}" class="bitSocIMG">
+                        </div>
+                    </div>
+                    <img src="{% static 'img/medeo.png' %}" class="Medeo">
+                </div>
+            </section>
+            <section id="tour">
+            <div class="block3 text3">
+                <img src="{% static 'img/Group 3.png' %}" class="tourIMG">
+                <div class="text-container firstHalf">
+                    <div class="shows">SHOWS</div>
+                    <div class="bottom109">MAY 5</div>
+                    <div class="bottom109">MAY 25</div>
+                    <div >MAY 30</div>
+                </div>
+                <div class="text-container secondHalf">
+                    <div class="bottom109">Mega Silk Way</div>
+                    <div class="bottom109">KhanShatyr</div>
+                    <div>EXPO</div>
+                </div>
+            </div>
+            </section>
+            <section id="release">
+
+            <div class="block4">
+                <img src="{% static 'img/Group 2.png' %}" class="releasessIMG">
+                <div class="text-container">
+                <div class="text4">SONGY RELEASES</div>
+                    <div class="text-container2">
+                        <div class="release release1"></div>
+                        <div class="release release2"></div>
+                    </div>
+                    <div class="text-container2">
+                        <div class="release release3"></div>
+                        <div class="release release4"></div>
+                    </div>
+                    <div class="text-container2">
+                        <div class="release release5"></div>
+                        <div class="release release6"></div>
+                    </div>
+                    <div class="text-container2">
+                        <div class="release release7"></div>
+                        <div class="release release8"></div>
+                    </div>
+                    <a class="releaseTolyq" href="{% url 'music' %}"><p class="releasetolyqTXT">Tolyq release</p></a>
+                </div>
+
+
+            </div>
+
+            </section>
+            <section id="contact">
+            <div class="block5">
+                <div class="text-container">
+                    <div class="text5">BAILANISU</div>
+                    <div class="text501">Сізге қалай
+                        <br>көмектесе аламын?
+                    </div>
+                    <div class="text502">Менің атым...</div>
+                    <div><input type = "text" class = "men_aty" placeholder="өзіңізді сипаттаңыз"></div>
+                    <div class="kelip">Келіп тұрған себебім...</div>
+                    <div><input type = "text" class = "suraq" placeholder="сұрауды сипаттаңыз"></div>
+                    <button class = "cherniBTN"><p class = "chernibtnTXT">Jiberu</p></button>
+                </div>
+                <img src="{% static 'img/medeo2.png' %}" class="Medeo2">
+            </div>
+            </section>
+            <div class="block6 text-container">
+                <div class="text6">TYNDA</div>
+                <div class="text-container2 socialIMG2">
+                    <img src="{% static 'img/logo-facebook.png' %}" class="bitSocIMG">
+                    <img src="{% static 'img/logo-instagram.png' %}" class="bitSocIMG">
+                    <img src="{% static 'img/mail.png' %}" class="bitSocIMG ">
+                    <img src="{% static 'img/logo-whatsapp.png' %}" class="bitSocIMG">
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#home">Basty Bet</a></li>
+                        <li><a href="#about">Biz turali</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#release">Relizze</a></li>
+                        <li><a href="#contact">Bailanis</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src ="{% static 'js/script.js'%}"></script>
+    </body>
+</html>

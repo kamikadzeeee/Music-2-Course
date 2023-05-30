@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Мой сайт с музыкой</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/ticket_style.css' %}">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="{% static 'video/travis.mp4' %}" type="video/mp4">
+        <source src="{% static 'video.webm' %}" type="video/webm">
+        Ваш браузер не поддерживает тег video.
+      </video>
+	<main>
+		<section>
+            <div class="container">
+                    <div class="text-container">
+                        <div class="imgC"><img id="cover-image" src="{% static 'audio/Medeo-Seniorita.png' %}" alt="cover"></div>
+                        <div class="audioC"><audio id="audio" controls>
+                            <source src="{% static 'audio/Medeo-Seniorita.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-otyzdan_asyp_baramyn.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-Orik.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-Jurek.mpeg' %}" type="audio/mpeg">
+
+                            <source src="{% static 'audio/Medeo-Drift.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-Bata.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-Bari_Biledi.mpeg' %}" type="audio/mpeg">
+                            <source src="{% static 'audio/Medeo-Lya.mpeg' %}" type="audio/mpeg">
+                        </audio></div>
+                        <div id="song-title" class="songName">Medeo-Seniorita</div>
+                        <div class="controls controlC">
+                            <button id="prev" onclick="prevTrack()">&#8249;</button>
+                            <button id="playpause" onclick="playPause()">&#9658;</button>
+                            <button id="next" onclick="nextTrack()">&#8250;</button>
+                        </div>
+                    </div>
+            </div>
+		</section>
+        <a class="Knopka" href="{% url 'App' %}">Главная</a>
+	</main>
+    <script src="{% static 'js/music.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Font/Montserrat-Italic-VariableFont_wght.ttf);
+  }
+body{
+    margin:0;
+}
+.block1{
+    display:flex;
+    background-image: url(../img/back.png);
+    width:1920px;
+    height: 1000px;
+}
+.block2{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    background-color: #fff;
+}
+.block3{
+    display:flex;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../img/tourBACK.png);
+}
+.block4{
+    display: flex;
+    width: 1920px;
+    height: 3240px;
+    background-color: #fff;
+}
+.block5{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    background-color: #fff;
+}
+.block6{
+    display: flex;
+    width: 1920px;
+    height: 520px;
+    background-color: #000000;
+}
+ul {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+ul li {
+    display: inline-block;
+    margin-right: 197px;
+    margin-top:30px;
+}
+  
+ul li:last-child {
+    margin-right: 0;
+}
+ul li a{
+    width: 124px;
+    height: 28px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration:none;
+
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.text{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    margin-left:1524px;
+    margin-top:319px;
+
+    color: #FFFFFF;
+
+}
+.text2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+    margin:0;
+    margin-top:91px;
+    margin-left:100px;
+}
+.text201{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+    margin-left:100px;
+    margin-top: 67px;
+}
+.text202{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-left:100px;
+    margin-top: 67px;  
+}
+.text203{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    width: 753px;
+    height: 378px;
+    color: #000000;
+    margin-left:100px;
+    margin-top: 44px;  
+}
+.text204{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-left:105px;
+    color: #000000;
+}
+.text3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.text4{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+    margin-left:165px;
+    margin-top: 65px;
+}
+.text5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+    margin-left:297px;
+    margin-top:94px;
+}
+.text501{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+    margin-top: 66px;
+    margin-left: 122px;
+}
+.text502{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    margin-left: 321px;
+    margin-top: 118px;
+    color: #000000;
+
+}
+.text6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    /* identical to box height */
+    margin-top: 97px;
+    margin-left: 117px;
+    
+    color: #FFFFFF;
+
+}
+.btn {
+    position: absolute;
+    width: 301px;
+    height: 76px;
+    left: 1483px;
+    top: 522px;
+    display: inline-block; /* Добавляем display для ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    background: #262629;
+    border-radius: 40px;
+}
+
+.btext {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    color: #FFFFFF;
+    bottom: 50px;
+    margin-top:10px;
+}
+.aboutIMG{
+    margin-left:63px;
+    margin-top:31px;
+}
+.tourIMG{
+    margin-left:63px;
+    margin-top:115px;
+}
+.socialIMG{
+    margin-left:100px;
+    margin-top: 24px;
+}
+.socialIMG2{
+    margin-left:750px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bitSocIMG{
+    width: 80px;
+    height: 80px;
+    margin-right:37px;
+}
+.releasessIMG{
+    margin-top:120px;
+    margin-left:63px;
+    width: 75px;
+    height: 1030px;
+}
+.bailanisuIMG{
+    margin-left:60px;
+    margin-top: 36px;
+}
+.Medeo{
+    width: 600px;
+    height: 644.5px;
+    margin-top:183px;
+    margin-left:97px;
+}
+/* .facebook{
+    background-image: url(../img/logo-facebook.svg) no repeat;
+    background-size: cover;
+}
+.insta{
+    background-image: url(../img/logo-instagram.svg) no repeat;
+    background-size: cover;
+}
+.mail{
+    background-image: url(../img/mail.svg) no repeat;
+    background-size: cover;
+}
+.whatsapp{
+    background-image: url(../img/logo-whatsapp.svg) no repeat;
+    background-size: cover;
+} */
+.text-container {
+    display: block;
+    flex-direction: column;
+    align-items: center; /* center horizontally */
+    text-align: left;
+}
+.text-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* center horizontally */
+    text-align: left;
+}
+.shows{
+    margin-bottom: 201px;
+}
+.bottom109{
+    margin-bottom: 109px;
+}
+.firstHalf{
+    margin-top:65px;
+    margin-left:116px;
+}
+.secondHalf{
+    margin-top:344px;
+    margin-left:767px;
+}
+.men_aty{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    width: 355px;
+    height: 62px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top:15px;
+    margin-left:321px;
+}
+.kelip{
+        
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    margin-top:83px;
+    margin-left:321px;
+    color: #000000;
+
+}
+.suraq{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    width: 355px;
+    height: 62px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top:28px;
+    margin-left:321px;
+}
+.cherniBTN{
+    background: #1A1919;
+    width: 380px;
+    height: 90px;
+    margin-top:118px;
+    margin-left:199px;
+}
+.chernibtnTXT{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #FFFFFF;
+    margin-top:20px;
+}
+.Medeo2{
+    width: 852px;
+    height: 1080px;
+    margin-left: auto;
+
+}
+.releaseTolyq {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  text-align: center;
+  width: 501px;
+  height: 119px;
+  justify-content: center;
+  margin: 115px auto 0;
+  margin-left: 590px;
+}
+
+.releasetolyqTXT {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  margin-top: 30px;
+}
+.release{
+    width: 600px;
+    height: 600px;
+    margin-left:171px;
+    margin-top:67px;
+}
+.release1{
+    background-image: url(../img/release1.png);
+    margin-top:32px;
+}
+.release2{
+    background-image: url(../img/release2.png);
+}
+.release3{
+    background-image: url(../img/release3.png);
+}
+.release4{
+    background-image: url(../img/release4.png);
+}
+
+.release5{
+    background-image: url(../img/release5.png);
+}
+.release6{
+    background-image: url(../img/release6.png);
+}
+.release7{
+    background-image: url(../img/release7.png);
+}
+.release8{
+    background-image: url(../img/release8.png);
+}
